@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+    android:orientation="vertical">
+<ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/qbtitle"
+        android:scaleType="fitXY" />
+
+<GridView 
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:columnWidth="90dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+/>
+
+
+ </LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ShoppingMallActivity!</string>
+    <string name="app_name">ShoppingMall</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="newuser">New User</string>
+    <string name="search">Go</string>
+    <string name="storeimage">storeImage</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    >
+<LinearLayout 
+    android:layout_marginTop="20px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_weight="1"
+    >
+    <ImageButton
+        android:id="@+id/button1"
+        android:src="@drawable/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+        android:layout_marginTop="20px"
+        android:layout_weight="2"
+       />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10px"
+        android:text="Connect with Facebook"
+        android:textSize="30px" 
+        android:gravity="center_vertical"></TextView>"
+   
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_marginTop="20px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_weight="1"
+    >
+    <ImageButton
+        android:id="@+id/button2"
+        android:src="@drawable/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="twitter" 
+        
+        android:layout_weight="2"
+        android:layout_marginTop="50px"/>
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10px"
+        android:text="Connect with Twitter"
+        android:textSize="30px" 
+        android:gravity="center_vertical"></TextView>"
+   
+      </LinearLayout>
+<LinearLayout 
+    android:layout_marginTop="20px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_weight="1"
+    >
+    <ImageButton
+        android:id="@+id/button3"
+        android:src="@drawable/fourquare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="twitter" 
+        
+        android:layout_weight="2"
+        android:layout_marginTop="50px"/>
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10px"
+        android:text="Connect with FourSquare"
+        android:textSize="30px" 
+        android:gravity="center_vertical"></TextView>"
+   
+</LinearLayout>
+</LinearLayout>
